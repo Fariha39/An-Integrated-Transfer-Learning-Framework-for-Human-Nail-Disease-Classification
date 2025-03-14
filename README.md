@@ -23,7 +23,31 @@ This project implements an integrated transfer learning approach for **Human Nai
 - **OpenCV** (if needed for image processing)
 - **Jupyter Notebook** (optional for visualization)
 
-## 🚀 Getting Started
+  # Hybrid Model
+
+## Model Building
+![image](https://github.com/user-attachments/assets/3fd2c35e-eeef-4382-b74f-0132cbb52c0a)
+## Hybrid Model Architecture
+![image](https://github.com/user-attachments/assets/ce1acc20-a792-4dc3-965c-171643d45fac)
+## Accuracy & Loss curve 
+![image](https://github.com/user-attachments/assets/d5cd5afd-22ed-4616-a747-42f5823dfd94)
+## Confusion metrix
+![image](https://github.com/user-attachments/assets/8d3570bc-3832-4fa1-a137-992033358ac4)
+
+### Overall performance of our proposed model vs. pretrained model
+ModelName	 Precision	Recall	F1-score	Accuracy
+VGG16	       0.87	     0.84  	0.85    	0.86
+VGG19      	0.82	     0.81  	0.81	    0.81
+DenseNet121 	0.91    	0.90	0.91	    0.91
+Hybrid model  0.96	   0.96  	0.96	    0.96
+	
+
+
+
+
+
+
+
 
 ### 1️⃣ Clone the repository:
 ```bash
